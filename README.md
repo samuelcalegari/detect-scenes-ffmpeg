@@ -20,9 +20,9 @@ Via npm :
 ```
 const ds_ffmpeg = require("@samuelcalegari/ds_ffmpeg")
 
-const result  = ds_ffmpeg('/path/to/myvideo.mp4',0.1)
-
-console.log(result)
+ds_ffmpeg('input.mp4',0.1).then(function(r){ 
+	console.log(r);
+});
 ```
 
 ## Bugs and Issues
