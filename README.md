@@ -20,9 +20,13 @@ Via npm :
 ```
 const ds_ffmpeg = require("@samuelcalegari/ds_ffmpeg")
 
-ds_ffmpeg('input.mp4',0.1).then(function(r){ 
-	console.log(r);
-});
+ds_ffmpeg('input.mp4',0.1)
+    .then(function(r){ 
+	    console.log(r);
+    })
+    .catch(function(error) {
+	    console.error(error);
+    });
 ```
 
 ## Bugs and Issues
