@@ -1,4 +1,4 @@
-let doit = (videoPath, filterValue) => {
+const doit = (videoPath, filterValue) => {
     const p = require('child_process');
     const cmd = 'ffprobe -show_frames -of compact=p=0 -f lavfi "movie=' + videoPath + ',select=gt(scene\\,' + filterValue + ')"';
     const regex = /pkt_pts_time=\d+\.\d+/g;
@@ -17,7 +17,7 @@ let doit = (videoPath, filterValue) => {
 module.exports = function ds_ffmpeg(videoPath, filterValue = 0.3) {
 
     return new Promise((resolve, reject) => {
-        let r =  doit(videoPath,filterValue);
+        const r =  doit(videoPath,filterValue);
         resolve(r);
     });
 }

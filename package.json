@@ -1,6 +1,6 @@
 {
   "name": "@samuelcalegari/ds_ffmpeg",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Detect Video Scenes with FFMPEG",
   "main": "index.js",
   "keywords": [
