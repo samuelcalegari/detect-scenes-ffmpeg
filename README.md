@@ -27,7 +27,7 @@ console.log(result)
 
 ## Bugs and Issues
 
-If you encounter any bugs or issues, feel free to open an issue at github.
+If you encounter any bugs or issues, feel free to open an issue at [github](https://github.com/samuelcalegari/detect-scenes-ffmpeg).
 
 
 ## Licence
