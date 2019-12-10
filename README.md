@@ -27,7 +27,7 @@ ds_ffmpeg('input.mp4',0.1).then(function(r){
 
 ## Bugs and Issues
 
-If you encounter any bugs or issues, feel free to open an issue at [github](https://github.com/samuelcalegari/ds_ffmpeg)
+If you encounter any bugs or issues, feel free to open an issue at [github](https://github.com/samuelcalegari/ds_ffmpeg).
 
 
 ## Licence
