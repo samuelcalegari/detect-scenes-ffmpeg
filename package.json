@@ -1,14 +1,17 @@
 {
-  "name": "detect-scenes-ffmpeg",
-  "version": "1.0.0",
+  "name": "@samuelcalegari/ds_ffmpeg",
+  "version": "1.0.1",
   "description": "Detect Video Scenes with FFMPEG",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "ffmpeg",
+    "video",
+    "npm",
+    "package",
+    "samuelcalegari"
+  ],
   "author": "Samuel Calegari",
-  "license": "ISC",
-  "dependencies": {
-    "fluent-ffmpeg": "^2.1.2"
-  }
+  "repository": "samuelcalegari/ds_ffmpeg",
+  "license": "MIT",
+  "dependencies": {}
 }
