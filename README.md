@@ -11,9 +11,9 @@ Via npm :
 ## API
 
 `ds_ffmpeg(videoPath,filterValue)`
-* videoPath : path to video file
-* filterValue : filter value, float between 0 and 1 (default value : 0.3)
-* returns array of float, correponding when changes appears (ex : [6.1, 51.2 ])
+* videoPath : path to video file.
+* filterValue : filter value, float between 0 and 1 (default value : 0.3).
+* returns array of float, correponding when changes appears (ex : [6.1, 51.2 ]).
 
 ## Usage
 
