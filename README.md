@@ -1,6 +1,6 @@
 # Video Scene Detection with node.js
 
-This library ma  , make sure you have [ffmpeg](http://www.ffmpeg.org/) installed on your system.
+This library can detect changes in a video, make sure you have [ffmpeg](http://www.ffmpeg.org/) installed on your system.
 
 ## Installation
 
